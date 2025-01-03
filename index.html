@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrika's Meme-tastic Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #ffd700;
+            animation: headerGlow 3s infinite;
+        }
+
+        @keyframes headerGlow {
+            0%, 100% { box-shadow: 0 0 20px #ffe66d; }
+            50% { box-shadow: 0 0 50px #ffe66d; }
+        }
+
+        .title {
+            font-size: 2.5rem;
+            text-shadow: 3px 3px #000;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin-top: -10px;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        #about {
+            background: #ff6b81;
+            color: white;
+        }
+
+        #portfolio {
+            background: #74c7b8;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border: 3px dashed #222;
+            box-shadow: 5px 5px 0 #444;
+            transform: rotate(-2deg);
+        }
+
+        #contact {
+            background: #a29bfe;
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Welcome to Adrika's Meme-tastic Portfolio</h1>
+        <p class="tagline">"Making websites that make you say 'LOL WTF'"</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey there! I'm Adrika, your friendly neighborhood code ninja and meme connoisseur. When I'm not building funky websites, I'm probably laughing at memes that no longer make sense in context. Like, "why is a frog on a unicycle funny?"
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>"Shrek-ify Your Profile" App</h3>
+            <img src="shrek-meme.jpg" alt="Shrek meme project">
+            <p>An app that transforms your photos into green ogre masterpieces.</p>
+        </div>
+        <div class="project">
+            <h3>Meme Randomizer</h3>
+            <img src="meme-random.jpg" alt="Random meme generator">
+            <p>A fun tool that fetches a random meme to brighten your day.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me:adrikabmeme@meme</h2>
+        <p>If you can guess my favorite meme😎, I'll reply faster! Or just <a href="mailto:adrika.memequeen@gmail.com">email me</a>.</p>
+    </section>
+</body>
+</html>
